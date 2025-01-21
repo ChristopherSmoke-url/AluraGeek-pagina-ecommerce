@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--DETALLES DE PÁGINA-->
+        <title>AluraGeek</title>
+        <link rel="shortcut icon" href="../assets/icono-logo.png"/>
+
+        <!--HOJAS DE ESTILOS Y FUENTES-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- HEADER -->
+        <header>
+            <img src="../assets/logo-corazones.png" alt="LOGO ALURAGEEK" class="logo__corazones">
+            <h2>AluraGeek</h2>
+        </header>
+
+        <!-- MAIN -->
+        <main>
+            <div class="container">
+                <section class="productos">
+                    <h1>MIS PRODUCTOS:</h1>
+                    <div class="grid-container">
+                        <div class="card">
+                            <img class="img__taza" src="../assets/imagen-taza.png">
+                            <h3>Stormtrooper</h3>
+                            <p>$60,00</p>
+                        </div>
+                        <div class="card">
+                            <img class="img__gameboy" src="../assets/imagen-gameboy.png">
+                            <h3>Game Boy Classic</h3>
+                            <p>$60,00</p>
+                        </div>
+                        <div class="card">
+                            <img class="img__taza" src="../assets/imagen-taza.png">
+                            <h3>Stormtrooper</h3>
+                            <p>$60,00</p>
+                        </div>
+                        <div class="card">
+                            <img class="img__gameboy" src="../assets/imagen-gameboy.png">
+                            <h3>Game Boy Classic</h3>
+                            <p>$60,00</p>
+                        </div>
+                        <div class="card">
+                            <img class="img__taza" src="../assets/imagen-taza.png">
+                            <h3>Stormtrooper</h3>
+                            <p>$60,00</p>
+                        </div>
+                        <div class="card">
+                            <img class="img__gameboy" src="../assets/imagen-gameboy.png">
+                            <h3>Game Boy Classic</h3>
+                            <p>$60,00</p>
+                        </div>
+                        <div class="card">
+                            <img class="img__taza" src="../assets/imagen-taza.png">
+                            <h3>Stormtrooper</h3>
+                            <p>$60,00</p>
+                        </div>
+                        <div class="card">
+                            <img class="img__gameboy" src="../assets/imagen-gameboy.png">
+                            <h3>Game Boy Classic</h3>
+                            <p>$60,00</p>
+                        </div>
+                        <div class="card">
+                            <img class="img__taza" src="../assets/imagen-taza.png">
+                            <h3>Stormtrooper</h3>
+                            <p>$60,00</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="formulario">
+                    <h1>AGREGAR PRODUCTO:</h1>
+                    <form id="formulario" action="#">
+                        <input type="text" id="nombre" placeholder="nombre..." name="nombre" required>
+                        <input type="text" id="precio" placeholder="precio..." name="precio" required>
+                        <input type="text" id="imagen" placeholder="imagen..." name="imagen" required>
+                        <div class="botones">
+                            <button id="enviar">Enviar</button>
+                            <button id="limpiar">Limpiar</button>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </main>
+
+        <!--FOOTER-->
+        <footer>
+            <div class="footer__logo">
+                <img src="../assets/logo-corazones.png" alt="LOGO ALURAGEEK" class="logo__corazones">
+                <h2>AluraGeek</h2>
+            </div>
+            <p>DESARROLLADO POR CHRISTOPHER COSTILLA &copy;</p>
+            <p>ALURA LATAM - 2025</p>
+        </footer>
+        <script type="module" src="../js/crearProducto.js"></script>
+        <script type="module" src="../js/main.js"></script>
+    </body>
+</html>

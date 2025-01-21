@@ -1,0 +1,15 @@
+{ "productos": [
+    {
+        "id": 1,
+        "nombre": "Taza de Stormtrooper",
+        "imagen": "./assets/imagen-taza.png",
+        "precio": "$60,00"
+    },
+    {
+        "id": 2,
+        "nombre": "Game Boy Classic",
+        "imagen": "./assets/imagen-gameboy.png",
+        "precio": "$60,00"
+    }
+    ]
+}
